@@ -1,0 +1,23 @@
+@import "../../assets//scss/variables.module";
+.inputDesign {
+    position: relative;
+    margin-bottom: 12px;
+    .inputStyle{
+        min-height: 40px !important;    
+        min-width: 100%;
+        border: $border;    
+        border-radius: $input-border-radius !important;        
+        outline-style: none;
+        &:focus{
+            box-shadow: none;
+            outline: none !important;
+        }
+    }
+    p {
+        // position: absolute;
+        // bottom: -21px;
+        // left: 10px;
+        color: red;
+        text-align: left;
+    }
+}

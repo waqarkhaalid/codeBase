@@ -1,0 +1,49 @@
+@import "../../../assets//scss/variables.module";
+.submitButton {
+  border-radius: $btn-border-radius;
+  padding: $btn-padding;
+  border: 1px solid #fedd92 !important;
+  background: #fedd92 !important;
+  // box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.08);
+}
+.alignCenter {
+  text-align: center;
+  padding: 12px 54px;
+}
+.inputPadding {
+  padding-right: 40px !important;
+}
+.imageBackground {
+  background-image: url('/assets/images/WelcomeScreen.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.inputIconsPosition {
+  position: relative;
+  left: 43%;
+  bottom: 50px;
+}
+.emailIcon {
+  svg {
+    width: 15px !important;
+  }
+}
+.reset_password_details{
+  input{
+    width: 76% !important; 
+  }
+}
+// @media only screen and (min-width : 320px) and (max-width : 480px) {
+//   .reset_password_details{
+//       input{ 
+//         width: 70% !important; 
+//       }
+//     }
+// }
+//   @media only screen and (min-width : 320px) and (max-width : 480px) {
+//     .responsive_text {
+//       font-size: 22px !important; 
+//     }
+//   }

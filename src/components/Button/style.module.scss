@@ -1,0 +1,59 @@
+@import "../../assets//scss/variables.module";
+
+.btnStyle {
+    border-radius: $btn-border-radius;
+    padding: $btn-padding;
+    border: 1px solid #fedd92 !important;
+    background: #ffff;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.08);
+    &:hover {
+        background-color: $btn-bg-color;
+    }
+}
+.btnPrimary {
+    border-radius: 10px;
+    padding: 5px 40px 7px;
+    border: 1px solid #fedd92;
+    background: #fedd92;
+    color: #333;
+    box-shadow: 0px 3px 4px rgb(0 0 0 / 8%);
+    font-weight: 500;
+    margin: 4px;
+    &:hover{
+        background-color: #fedd92;
+        border: 1px solid#fedd92;
+        color: #fff;
+    }
+}
+.btnOutline{
+    border-radius: 10px;
+    padding: 5px 40px 7px;
+    border: 1px solid #fedd92;
+    border: 1px solid#fedd92;
+    background: #fff;
+    color: #333;
+    font-weight: 500;
+    margin: 4px;
+    &:hover{
+        box-shadow: 0px 3px 4px rgb(0 0 0 / 8%);
+        background-color: #fedd92;
+        border: 1px solid#fedd92;
+        color: #fff;
+    }
+}
+.btnRounded{
+    border-radius: 20px;
+    padding: 5px 15px 7px !important;
+    border: 1px solid #fedd92;
+    border: 1px solid#fedd92;
+    background: #fff;
+    color: #333;
+    font-weight: 500;
+    margin: 4px;
+    &:hover{
+        box-shadow: 0px 3px 4px rgb(0 0 0 / 8%);
+        background-color: #fedd92;
+        border: 1px solid#fedd92 !important;
+        color: #333;
+    }
+}

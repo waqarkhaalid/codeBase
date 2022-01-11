@@ -1,0 +1,34 @@
+.petModal {
+  .border-radius-2 div {
+    border-radius: 40px;
+  }
+  .my-modal {
+    width: 28vw;
+    max-width: 28vw;
+  }
+  .modal-content {
+    border-radius: 40px;
+  }
+  .modal-header {
+    border: none;
+  }
+  .pet-Image {
+    position: absolute !important;
+    top: -80px;
+    justify-content: center;
+    width: 100%;
+    left: 0;
+    .pet-logo {
+      width: 110px;
+      height: auto;
+    }
+  }
+
+  /* Media Query Screen Resposivness*/
+  @media only screen and (max-width: 600px) {
+    .my-modal {
+      width: 100vw;
+      max-width: 96vw;
+    }
+  }
+}

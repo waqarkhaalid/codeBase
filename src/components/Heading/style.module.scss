@@ -1,0 +1,35 @@
+@import "../../assets//scss/variables.module";
+
+.mainHeadingSize {
+  font-size: $font-xxxl;
+  font-weight: $font-weight-semibold;
+  color: $text-dark;
+  line-height: 38px;
+  margin-bottom: 0px;
+}
+.subHeadingSize {
+  font-size: $font-22;
+  color: $text-dark;
+  font-weight: $font-weight-semibold;
+  margin-bottom: 0px;
+  line-height: 25px;
+}
+.smallHeading {
+  font-size: $font-lg;
+  color: $text-dark;
+  line-height: 24px;
+  font-weight: $font-weight-semibold;
+}
+.extraSmallHeading {
+  font-size: $font-md;
+  color: $text-dark;
+  line-height: 24px;
+  font-weight: $font-weight-semibold;
+}
+.headingPink {
+  font-size: $font-xxl;
+  font-weight: $font-weight-semibold;
+  color: $heading-text;
+  line-height: 24px;
+}
+

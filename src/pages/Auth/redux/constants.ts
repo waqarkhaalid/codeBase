@@ -1,0 +1,11 @@
+export const LOGIN = "login";
+export const LOGOUT = "logout";
+export const LOGIN_SUCCESS = "login_success";
+export const LOGIN_FAILURE = "login_fail";
+export const LOGIN_OUT = "LOGIN_OUT";
+export const REGISTER = "register";
+export const REGISTER_SUCCESS = "register_success";
+export const REGISTER_FAILURE = "register_fail";
+export const FORGOT_PASSWORD = 'forgot_password';
+export const RESET_PASSWORD = 'reset_password';
+export const SET_LOADER ="set_loader";

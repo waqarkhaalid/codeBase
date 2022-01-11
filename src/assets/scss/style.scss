@@ -1,0 +1,226 @@
+.SidBar {
+  float: left;
+  .collapsed {
+    height: 100vh;
+  }
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+.cursorPointer {
+  cursor: pointer;
+}
+a {
+  cursor: pointer !important;
+}
+
+.table-hover tbody tr:hover {
+  background-color: white;
+}
+.tableWidth {
+  width: 150px !important;
+}
+.detailModal {
+  .modal-content {
+    border-radius: 40px !important;
+    padding: 10px !important;
+  }
+  .card {
+    border: none !important;
+  }
+}
+.bonusModal {
+  max-width: 360px !important;
+  .modal-content {
+    border-radius: 40px !important;
+    padding: 10px !important;
+  }
+  .card {
+    border: none !important;
+  }
+}
+.paginationDesign {
+  padding-left: 35%;
+  .page-item.disabled {
+    .page-link {
+      color: #fedd92;
+    }
+  }
+  .page-link {
+    color: #fedd92;
+    &:focus {
+      box-shadow: none !important;
+    }
+  }
+  .page-item.active .page-link {
+    background-color: #fedd92;
+    border-color: #fedd92;
+  }
+}
+
+.detailButton {
+  margin: 0px !important;
+  padding: 2px 15px 4px !important;
+}
+
+.detailHeading {
+  font-size: 16px !important;
+}
+.detailText {
+  font-size: 16px !important;
+  padding-top: 5px !important;
+}
+.userHeading {
+  font-size: 33px;
+  padding-left: 12px;
+  padding-bottom: 2px;
+  color: black;
+}
+
+.pointInputField {
+  width: 100% !important;
+  border-radius: 16px;
+  height: 40px;
+}
+.pointInputField.form-control:focus {
+  border-color: #ff95c5 !important;
+  box-shadow: 0 0 0 1px #ff95c5 !important;
+}
+
+.selectBox {
+  .css-1s2u09g-control {
+    border-radius: 16px !important;
+    height: 40px;
+  }
+
+  .css-1pahdxg-control:focus-within {
+    border-color: #ffafd3 !important;
+    box-shadow: 0 0 0 1px #ffafd3 !important;
+    border-radius: 16px !important;
+  }
+}
+.errorText {
+  margin-left: 2% !important;
+  margin-top: 3px !important;
+}
+
+.totalCount {
+  color: #576887 !important;
+}
+
+.Loader {
+  text-align: center;
+  .passwordIcon,
+  svg {
+    width: 60px !important;
+    height: 60px !important;
+  }
+}
+.bonusPointButton {
+  width: 100px;
+  padding: 5px 15px 7px;
+}
+.bonusPointButtonAdd {
+  width: 100px;
+  padding: 5px 20px 7px;
+}
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background-color: #f661a4;
+}
+.postCard {
+  .carousel-item.active {
+    height: 340px;
+  }
+}
+.modal-header .close {
+  padding: 1rem 1rem;
+  margin: 0rem 0rem -1rem auto;
+}
+.editTabButtons {
+  padding: 5px 20px 7px;
+}
+.editCardDesign {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+.selectBox.css-b62m3t-container {
+  padding-top: 4px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #fe90c1;
+}
+a:hover {
+  cursor: default;
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.avatar-sm {
+  height: 3rem;
+  width: 5rem;
+}
+.webcamErrMessage {
+  .sc-dlfnuX.kVeXNY {
+    color: red;
+    font-weight: 500;
+  }
+}
+.badge-success {
+  color: #fff;
+  background-color: #fe90c1;
+}
+.style_modalHeadingPink__1hy6u:hover {
+  cursor: default;
+}
+.reportCardDesign {
+  padding: 2px 3px 2px;
+  border-radius: 22px;
+  margin-right: 5px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+}
+.reportButton {
+  font-size: 12px;
+  border-radius: 4px;
+}
+.reportModalHeading {
+  text-align: center;
+  margin-bottom: 12px !important;
+  font-size: 18px;
+}
+
+.iconClick:hover {
+  cursor: pointer;
+}
+.css-26l3qy-menu {
+  // background-color: rgb(106, 151, 165);
+}
+.selectBox {
+  .css-26l3qy-menu {
+    .css-4ljt47-MenuList {
+      div {
+        background-color: transparent;
+        &:hover {
+          background-color: #fe90c1;
+        }
+      }
+    }
+  }
+}
+.monthlySelected {
+  cursor: no-drop;
+  pointer-events: none;
+  opacity: 0.4;
+  background-color: #fff7e6 !important;
+}
+.modal-open {
+  &.modal {
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+}

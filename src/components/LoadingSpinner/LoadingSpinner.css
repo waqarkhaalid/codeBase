@@ -1,0 +1,110 @@
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Large Spinner */
+
+.lds-dual-ring-large {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+
+.lds-dual-ring-large:after {
+  content: " ";
+  display: block;
+  width: 60px;
+  height: 60px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 6px solid #282d31;
+  border-color: white transparent white transparent;
+  animation: lds-dual-ring 1s linear infinite;
+}
+
+/* Normal Spinner */
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #282d31;
+  border-color: white transparent white transparent;
+  animation: lds-dual-ring 1s linear infinite;
+}
+
+/* Small Spinner */
+
+.lds-dual-ring-small {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.lds-dual-ring-small:after {
+  content: " ";
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin: 1px;
+  border-radius: 50%;
+  border: 5px solid #282d31;
+  border-color: white transparent white transparent;
+  animation: lds-dual-ring 1s linear infinite;
+}
+
+/* As Overlay */
+
+.loading-spinner__overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Colors Variation */
+
+
+.lds-dual-ring.primary:after,
+.lds-dual-ring-small.primary:after,
+.lds-dual-ring-x-small.primary:after {
+  border-color: var(--primary-color) transparent var(--primary-color) transparent;
+}
+
+.lds-dual-ring.secondary:after,
+.lds-dual-ring-small.secondary:after,
+.lds-dual-ring-x-small.secondary:after {
+  border-color: var(--secondary-color) transparent var(--secondary-color) transparent;
+}
+
+.lds-dual-ring.dark:after,
+.lds-dual-ring-small.dark:after,
+.lds-dual-ring-x-small.dark:after {
+  border-color: var(--dark-primary) transparent var(--dark-primary) transparent;
+}

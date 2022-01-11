@@ -1,0 +1,67 @@
+@import "../../../assets//scss/variables.module";
+.signInButton{
+    border-radius: $btn-border-radius;
+    padding: $btn-padding;
+    border: 1px solid #FEDD92 !important;
+    background: #FEDD92 !important;
+    // box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.08);        
+}
+.alignCenter{
+    text-align: center;
+    padding: 12px 54px;
+    // margin-left: 70px;
+}
+.inputPadding{
+    padding-right: 36px !important;
+}
+.squared  {
+    input[type=checkbox]:checked {        
+        background-color:red !important;
+  }
+}
+.imageBackground{
+    background-image: url('/assets/images/WelcomeScreen.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.textDecoration{
+    text-decoration: none !important;
+}
+.passwordIcon{
+    position: relative;
+    right: 32px;
+    bottom: 5px;
+    svg{        
+        width: 18px !important;
+    }
+}
+.userIcon{
+    position: relative;
+    right: 35px;
+    bottom: 5px;
+    svg{
+        height: 20px !important;
+        width: 20px !important;
+    }
+}
+.inputIconsPosition{
+    position: relative;
+    right: 35px;
+    bottom: 8px;
+}
+.myQuteText{
+    color: #e8056c !important
+}
+.captchaErrors
+{
+    font-size: 12px;
+    color: red !important
+}
+.loadingSpinner {
+    height: 22px;
+    width: 22px;
+    color: #ff998e;
+  }
